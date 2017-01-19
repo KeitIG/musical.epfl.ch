@@ -1,0 +1,60 @@
+doctype
+html(lang='en')
+
+    head
+        title IOC - Discover Rio 2016 venues through interactive tours
+
+        meta(name='viewport' content='width=device-width, initial-scale=1')
+        meta(name='robots' content='noindex, nofollow')
+
+        link(rel='icon' type='image/png' href='images/favicon.png')
+
+        link(href='libs/bootstrap-flex.min.css' rel='stylesheet')
+
+        link(href='styles/main.css' rel='stylesheet')
+
+    body
+
+        .main-content
+
+            section#welcome
+                .container
+                    .row.main.flex-items-xs-middle.flex-items-xs-center
+                        .col-xs.col-md-10.text-xs-center
+                            img.main-logo.mb-1(src='images/welcome-logo.png' alt='Musical')
+                            h1 Music in the bunker
+                            p Musical an EPFL association providing to students a fully-equiped rehearsal room
+                            .btn-group
+                                a.btn.btn-primary.btn-lg(href='#venues') What we do
+                                a.btn.btn-primary.btn-lg(href='#venues') Subscriptions
+                                a.btn.btn-primary.btn-lg(href='#venues') Booking
+
+
+
+            section#about
+
+                .container
+                    .row.main.flex-items-xs-top.flex-items-xs-center.flex-items-sm-between
+                        .col-xs-10.col-sm-5.mb-2
+                            h3 Join us
+                            p.caption As students come and go, we're always looking for new committee members, particularly at the end of the year. Feel free to contact us to learn more about that.
+                        .col-xs-10.col-sm-5
+                            h3 Contact
+                            address.caption
+                                | Musical - Agepoly
+                                br
+                                a(href='mailto:musical@epfl.ch') musical@epfl.ch
+                                br
+                                a(href='' target='_blank') our Facebook page
+
+        footer.mb-2
+            .container
+                .row.main.flex-items-xs-middle.flex-items-xs-center
+                    .col-xs-10.col-sm-12.col-md-3.col-lg-2
+                        p
+                            img.logo(src='images/footer-logo.png' alt='Musical')
+                    .col-xs-10.col-sm-12.col-md-9.col-lg-10
+                        p
+                            | &copy; Copyright 2016. All rights reserved
+
+        script(src='scripts/main.js')
