@@ -5,12 +5,12 @@ body
     @media (min-width: 576px)
         text-align left
 
-#welcome
+.fullscreen-section
     position relative
-    background-position center
-    background-image url('../images/bg-guitar.jpg')
-    background-size cover
     color white
+    background-position center
+    background-size cover
+    background-attachment fixed
 
     &::before
         content ''
@@ -21,17 +21,32 @@ body
         left 0
         background-color rgba(0, 0, 0, .5)
 
-    .row.main
-        height 100vh
+#welcome
+    background-image url('../images/bg-guitar.jpg')
 
-        .main-logo
-            display block
-            width 270px
-            margin auto
+#musical
+    background-image url('../images/bg-campus-live.jpg')
+
+#subscription
+    background-image url('../images/bg-amp.jpg')
+
+#booking
+    background-image url('../images/bg-singer.jpg')
+
+#about
+    background-image url('../images/bg-bass.jpg')
+
+.main-logo
+    display block
+    width 270px
+    margin auto
+
+.full-height {
+    min-height 100vh
+}
 
 #about
     .row.main
-        padding 100px 0 70px 0
 
         .caption
             color $caption-color
