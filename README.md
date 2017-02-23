@@ -1,6 +1,4 @@
-# ioc-rio-homepage
-
-This is the IOC Rio homepage project sources.
+# musical.epfl.ch
 
 ## Stack
 
