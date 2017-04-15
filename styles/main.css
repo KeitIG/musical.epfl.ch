@@ -1,0 +1,101 @@
+html,
+body {
+  font-size: 18px;
+}
+h1 {
+  font-size: 3.2rem;
+}
+h3 {
+  font-size: 1.65rem;
+}
+h4 {
+  font-size: 1.4rem;
+}
+a {
+  color: #3a657d;
+}
+.btn {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.2);
+  padding: 10px 15px;
+}
+.btn-primary {
+  background-color: #3a657d;
+}
+.btn-lg {
+  padding: 14px 20px;
+  font-size: 1rem;
+}
+.font-weight-thin {
+  font-weight: 100;
+}
+body {
+  text-align: center;
+}
+@media (min-width: 576px) {
+  body {
+    text-align: left;
+  }
+}
+.fullscreen-section {
+  position: relative;
+  color: #fff;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.fullscreen-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.5);
+}
+#welcome {
+  background-image: url("../images/bg-guitar.jpg");
+}
+#musical {
+  background-image: url("../images/bg-campus-live.jpg");
+}
+#subscription {
+  background-image: url("../images/bg-amp.jpg");
+}
+#booking {
+  background-image: url("../images/bg-singer.jpg");
+}
+#about {
+  background-image: url("../images/bg-bass.jpg");
+}
+.main-logo {
+  display: block;
+  width: 270px;
+  margin: auto;
+}
+.full-height {
+  min-height: 100vh;
+}
+#about .row.main .caption {
+  color: #5e5e5e;
+  font-size: 0.89rem;
+}
+footer {
+  font-size: 0.89rem;
+  color: #afafaf;
+}
+footer a {
+  color: #afafaf;
+  text-decoration: underline;
+}
+footer a:hover {
+  color: #afafaf;
+}
+footer .row.main {
+  min-height: 90px;
+}
+footer .row.main .logo {
+  width: 124px;
+  display: inline-block;
+}
